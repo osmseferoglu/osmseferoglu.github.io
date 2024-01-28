@@ -1,15 +1,17 @@
 ---
-layout: page
-title: Page not found
-image:
+title: "Page not found"
+description: "Page not found"
 permalink: /404.html
+sitemap: false
+layout: default
 ---
-<div class="container">
-  <div class="row">
-    <div class="col col-12" style="text-align: center">
-      <h2>404</h2>
-      <p>The requested page could not be found.</p>
-      <p><a href="{{site.baseurl}}/">Back to the bLog</a></p>
-    </div>
+
+<div class="notfound-wrapper">
+  <div class="notfound-content">
+    <p>
+      Looks like you got lost.
+      <br>
+      Let's get you back to the <a href="{{ '/' | relative_url }}">homepage</a>!
+    </p>
   </div>
 </div>
